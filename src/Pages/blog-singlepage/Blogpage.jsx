@@ -4,7 +4,7 @@ import blogLoader from "../../helperfunction/blogLoader";
 import { Link } from "react-router-dom";
 
 function Blogpage() {
-
+  // useParams wordt gebruikt bij dynamische routes
   const { id } = useParams();
   const posts = blogLoader();
   const post = posts.find((post) => post.title.replaceAll(" ", "-") === id); 
