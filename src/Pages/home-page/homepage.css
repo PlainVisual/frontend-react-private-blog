@@ -1,0 +1,40 @@
+.home-page {
+min-height: 80vh;
+display: flex;
+flex-direction: row;
+padding-top:5rem;
+}
+
+.header-image {
+  flex-basis: 90%;
+  min-height: 100%;
+  background-color: brown;
+  background-image: url(../../assets/webdevelopment.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header-content {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.header-content h1 {
+  background-color: var(--primary-clr);
+  padding: 3rem;
+  color: #FFFF;
+  margin-left: -50%;
+  border-radius: 0.5rem;
+  width: 150%;
+}
+
+.nav-link {
+  align-self: flex-end;
+  text-decoration: underline;
+  color: var(--secondary-clr)
+
+}

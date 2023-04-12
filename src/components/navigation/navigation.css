@@ -1,0 +1,46 @@
+
+.nav-sticky {
+  position: sticky;
+  top: 0px;
+}
+
+
+.nav-outer {
+  padding: 2rem 0;
+  background-color: var(--primary-clr);
+}
+
+.nav-inner {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav a,
+nav a:visited {
+    text-decoration: none;
+}
+
+nav {
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+
+.active[aria-current="page"] {
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.nav-login {
+  display: none;
+}
+
+.nav-logout {
+  display: none;
+}
