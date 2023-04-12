@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import LoginForm from "../../components/Login-form/LoginForm";
+import LoginForm from "../../components/login-form/LoginForm";
 import "./login.css";
 
 function Login({ setAuth }) {
